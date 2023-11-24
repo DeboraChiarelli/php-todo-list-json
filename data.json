@@ -1,0 +1,22 @@
+[
+    {
+        "task": "Fare la spesa",
+        "done": false
+    },
+    {
+        "task": "Prenotare ristorante",
+        "done": false
+    },
+    {
+        "task": "Portare fuori Lilly",
+        "done": true
+    },
+    {
+        "task": "Chiamare negozio",
+        "done": false
+    },
+    {
+        "task": "Chiamare mamma",
+        "done": true
+    }
+]
