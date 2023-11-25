@@ -4,19 +4,15 @@
         "done": false
     },
     {
-        "task": "Prenotare ristorante",
-        "done": false
+        "task": "Chiamare mamma",
+        "done": true
     },
     {
         "task": "Portare fuori Lilly",
         "done": true
     },
     {
-        "task": "Chiamare negozio",
+        "task": "Prenotare viaggio",
         "done": false
-    },
-    {
-        "task": "Chiamare mamma",
-        "done": true
     }
 ]
