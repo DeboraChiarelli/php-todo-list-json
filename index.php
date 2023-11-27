@@ -15,6 +15,7 @@ Solo a questo punto sarà utile passare alla lettura della lista da un file JSON
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP ToDo List JSON</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
             integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,7 +33,7 @@ Solo a questo punto sarà utile passare alla lettura della lista da un file JSON
                         <li v-for="element in tasksList">
                         <!-- Ho utilizzato :class per applicare dinamicamente la classe CSS in base alla condizione (element.done) ? 'done' : ''. 
                         Se element.done è true, la classe 'done' viene applicata, altrimenti viene applicata una stringa vuota. -->
-                            <span :class="(element.done) ? 'done' : ''" @click="completedTask(element)"> <!-- Ho associato l'evento di click su <span> alla funzione 
+                            <span :class="(element.done) ? 'done' : ''" @click="completedTask(element)"> <!-- Ho associato l'evento click su <span> alla funzione 
                                                                                                             completedTask(element). Quando l'utente clicca su una attività, 
                                                                                                             questa funzione viene chiamata con l'elemento corrispondente della 
                                                                                                             lista tasksList. -->

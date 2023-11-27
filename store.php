@@ -28,7 +28,7 @@
     $jsonResponse = json_encode($response);
 // Ho impostato l'header della risposta per indicare che il contenuto è in formato JSON.
     header('Content-Type: application/json');
-// Ho stampato la risposta JSON, che include lo stato di successo, il messaggio, il codice di stato e i dati delle attività.
+// Ho stampato la risposta JSON, che include lo stato di successo, il messaggio, il codice e i dati delle attività.
     echo $jsonResponse;
 
     ?>
